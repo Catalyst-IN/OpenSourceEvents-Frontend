@@ -360,3 +360,7 @@ li > p:hover{
 .x:hover{
   box-shadow: inset 0 -1.5em 0 #25f582;
 }
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
