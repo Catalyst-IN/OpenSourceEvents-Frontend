@@ -347,3 +347,16 @@ li > p{
 li > p:hover{
   box-shadow: inset 0 -1.5em 0 rgba(0, 146, 227, 0.5)
 }
+.x{
+  text-decoration: none;
+  color: #363062;
+  display: block;
+  margin: auto;
+  position: relative;
+  padding: 0 10px 5px;
+  box-shadow: inset 0 -0.5em 0 #25f582;
+  transition: box-shadow .2s ease-in-out;
+}
+.x:hover{
+  box-shadow: inset 0 -1.5em 0 #25f582;
+}
