@@ -279,13 +279,20 @@
           <div class="col-md-8">
             <div class="row">
               <div class="col-sm-6 form-group">
-                <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+              	 <label class="form-label" for="name">Name</label>
+                <input class="form-control form-input" id="name" name="name"  type="text" required>
+
               </div>
               <div class="col-sm-6 form-group">
-                <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-              </div>
+              	<label class="form-label" for="email">Email</label>
+               <input class="form-control form-input" id="email" name="email"  type="email" required>
+             </div>
             </div>
-            <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+            <br>
+            <div>
+            <label class="form-label" for="comments" id="commentlabel">Comment</label>
+            <textarea class="form-control form-input" id="comments" name="comments"  rows="5"></textarea>
+            </div>
             <br>
             <div class="row">
               <div class="col-md-12 form-group">
@@ -318,6 +325,39 @@
         <!-- jquery -->
 
         <script>
+
+
+           $('input').focus(function(){
+  $(this).parents('.form-group').addClass('focused');
+});
+
+$('input').blur(function(){
+  var inputValue = $(this).val();
+  if ( inputValue == "" ) {
+    $(this).removeClass('filled');
+    $(this).parents('.form-group').removeClass('focused');  
+  } else {
+    $(this).addClass('filled');
+  }
+});  
+
+
+ $('textarea').focus(function(){
+  $(this).parents('.form-group').addClass('focused');
+});
+
+$('textarea').blur(function(){
+  var inputValue = $(this).val();
+  if ( inputValue == "" ) {
+    $(this).removeClass('filled');
+    $(this).parents('.form-group').removeClass('focused');  
+  } else {
+    $(this).addClass('filled');
+  }
+});
+
+
+
         $(document).ready(function(){
           // Initialize Tooltip
           $('[data-toggle="tooltip"]').tooltip();
@@ -342,7 +382,7 @@
 
                 // Add hash (#) to URL when done scrolling (default click behavior)
                 window.location.hash = hash;
-              });
+              //});
             } // End if
           });
         })
