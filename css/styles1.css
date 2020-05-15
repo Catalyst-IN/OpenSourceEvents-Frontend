@@ -13,6 +13,14 @@ body{
   color: #777;
 }
 
+a{
+  color: #000;
+}
+
+a:hover{
+  color: #000;
+}
+
 h1{
     font-family: 'Righteous', cursive;
     font-size: 4rem;
