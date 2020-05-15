@@ -1,34 +1,43 @@
+html {
+  scroll-behavior: smooth;
+  /* min-height: 100%; */
+  min-width: 100%;
+  position: relative;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 body{
-  font-family: 'Montserrat';
+  font-family: 'Comfortaa', cursive;
   font: 400 15px/1.8 Lato, sans-serif;
   color: #777;
 }
 
 h1{
-    font-family: 'Montserrat-Black';
+    font-family: 'Righteous', cursive;
     font-size: 4rem;
     font-weight: bold;
     margin:20% 0 0 3rem;
     line-height: 1.5;
 }
 h2{
-  font-family: 'Montserrat-bold';
+  font-family: 'Righteous', cursive;
   font-size: 60px;
 }
 
 h3{
-  font-family:' Montserrat-bold';
+  font-family: 'Righteous', cursive;
   font-size: 1.5rem;
   text-align: center;
   color:black;
 
 }
 h4{
-  font-family:' Montserrat-bold';
+  font-family: 'Righteous', cursive;
   font-size: 2rem;
 }
 h5{
-  font-family:' Montserrat-bold';
+  font-family: 'Righteous', cursive;
   text-align: center;
   padding: 5%;
 }
@@ -46,7 +55,7 @@ h5{
 
 /* header */
 .navbar {
-  font-family:Times New Roman, serif;
+   font-family: 'Comfortaa', cursive;
   margin-bottom: 0;
   background-color: #2d2d30;
   border: 0;
@@ -271,14 +280,14 @@ h5{
 }
 
 .x{
-  font-family: Parkavenue, cursive;
+   font-family: 'Comfortaa', cursive;
   font-size: 2.5rem;
   color: #363062;
 }
 
 ul{
     padding-left:20%;
-    font-family: Times, serif;
+    font-family: 'Baloo Da 2', cursive;
     font-size: 1.2rem;
 
 }
@@ -321,6 +330,8 @@ footer {
   color: #f5f5f5;
   bottom: 0;
   font-size: 1rem;
+  position: absolute;
+  width: 100%;
 }
 footer a {
   color: #f5f5f5;
@@ -336,7 +347,7 @@ footer a:hover {
 li > p{
   text-decoration: none;
   color: #111;
-  font-family: sans-serif;
+  font-family: 'Baloo Da 2', cursive;
   display: block;
   margin: auto;
   position: relative;
@@ -360,7 +371,13 @@ li > p:hover{
 .x:hover{
   box-shadow: inset 0 -1.5em 0 #25f582;
 }
-html, body {
+/*html, body {
     max-width: 100%;
     overflow-x: hidden;
+}*/
+
+/*content*/
+
+p{
+  font-family: 'Baloo Da 2', cursive;
 }
