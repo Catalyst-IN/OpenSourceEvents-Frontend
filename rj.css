@@ -1,0 +1,36 @@
+
+footer {
+  width:100vw;
+background-color: black; 
+  bottom:0px
+}
+footer div {
+
+  margin: -5px 0px 0px 0px;
+  padding:0px;
+
+  text-align:center;
+}
+svg {
+  width:100%;
+  overflow:visible;
+}
+
+.wave {
+  animation: wave 3s linear;
+  animation-iteration-count:infinite;
+  fill: black;
+}
+
+#wave2 {
+  animation-duration:5s;
+  animation-direction: reverse;
+  opacity: .6
+}
+#wave3 {
+  animation-duration: 7s;
+  opacity:.3;
+}
+@keyframes wave {
+  to {transform: translateX(-100%);}
+}
