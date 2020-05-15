@@ -118,9 +118,9 @@ p{
 /*testimonial*/
 
 #months{
-background-color: #808080;
+  background-color: #808080;
+  color: #fff;
 
-color: #fff;
 }
 #months.li{
   text-align: left;
