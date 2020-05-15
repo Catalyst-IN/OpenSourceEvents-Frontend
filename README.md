@@ -6,6 +6,13 @@ This website contains a list of open source events and hackathons. They are in a
  
 You can reach the maintainers and our community on [Catalyst-discord](https://discord.gg/dHtDhHa). If you are interested in contributing to the OpenSourceEvents-Frontend, we have a dedicated stream for this project [#OpenSourceEvents-Frontend](https://discord.gg/9wmvkGW), where you can ask questions and interact with the community, join with us!
 
+## Screenshots
+The motive of this website is to provide users with proper information about the upcoming hackathons and open source events
+![](screenshots/open.png)
+
+Timeline view of all the events
+![](screenshots/timeline.png)
+
 ## 🤝 How to Contribute
 
 ### For sending PR:-
