@@ -57,13 +57,13 @@ h5{
 .navbar {
    font-family: 'Comfortaa', cursive;
   margin-bottom: 0;
-  background-color: black;
+  background-color:#fff;
   border: 0;
   font-size: 15px ;
   font-weight: bold;
   letter-spacing:3px;
   opacity: 0.9;
-  z-index:90;
+
 }
 .navbar-brand{
   margin-left: 60px;
