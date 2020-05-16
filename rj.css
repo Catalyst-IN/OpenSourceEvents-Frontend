@@ -34,3 +34,6 @@ svg {
 @keyframes wave {
   to {transform: translateX(-100%);}
 }
+.navwave {
+transform: rotate(180deg);
+}
