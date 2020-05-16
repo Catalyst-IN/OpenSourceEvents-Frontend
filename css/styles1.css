@@ -7,6 +7,10 @@ html {
   overflow-x: hidden;
 }
 
+*:focus{
+outline: 0;
+}
+
 body{
   font-family: 'Comfortaa', cursive;
   font: 400 15px/1.8 Lato, sans-serif;
@@ -379,11 +383,59 @@ li > p:hover{
 .x:hover{
   box-shadow: inset 0 -1.5em 0 #25f582;
 }
-/*html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-}*/
 
+.logo{
+  width: 150px;
+  margin-left: 70px;
+  margin-bottom: 25px;
+}
+
+.logo img{
+    width: 250px;
+    height: 150px;
+}
+
+.socialmedia{
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  color: yellow;
+}
+
+.flexdisplay{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.newsletter{
+  margin-left: 600px;
+  margin-bottom: 25px;
+}
+
+.newsletter h3{
+  margin-bottom: 25px;
+  color: #fff;
+  font-size: 30px;
+}
+
+input{
+   border-radius: 30px;
+   min-width: 260px;
+   text-align: center;
+}
+
+.send{
+  border-radius: 5%;
+  min-width: 100px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  border: 2px solid #ffd633;
+}
+
+.send:hover{
+  background-color: #ffd633;
+}
 /*content*/
 
 p{
