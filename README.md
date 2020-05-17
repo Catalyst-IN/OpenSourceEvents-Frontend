@@ -44,6 +44,16 @@ This will give you an exact copy of the current remote, make sure you don't have
  13. Save and close the file, and a moment later a new file should pop up in  editor, combining all the commit messages of all the commits. Reword this commit message into meaningful one briefly explaining all the features, and then save and close that file as well. This commit message will be the commit message for the one, big commit that you are squashing all of your larger commits into. Once you've saved and closed that file, your commits of current branch have been squashed together.<br />
 14. Force push to update your pull request with command `git push origin branchname --force`.<br/>
 
+## Update local branch with latest changes
+
+```
+- git checkout master
+- git fetch --all --prune
+- git merge --ff-only upstream/master
+- git push origin master
+```
+
+
 ## 🤝 How to Contribute
 
 ### For sending PR:-
