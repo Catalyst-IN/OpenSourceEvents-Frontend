@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1 ">
+    <title>Open-Source Events & Hackathon's</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles1.css">
+    <script src="https://kit.fontawesome.com/0cd233bad9.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="icon" href="Assets/favicon.ico">
+    <link rel="stylesheet" href="rj.css">
+  </head>
+  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+
+<!-- navbar -->
+    <nav class="navbar  navbar-expand-lg navbar-dark  navbar-fixed-top menu menu-1">
+    <div class="container-fluid">
+      <div class="navbar-header">
+     <a class="navbar-brand" href="#myPage"><i class="fab fa-osi"></i></a>
+      </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+   <span class="navbar-toggler-icon"></span>
+ </button>
+ <div class="collapse navbar-collapse" id="navbarSupportedContent">
+   <ul class="navbar-nav ml-auto">
+       <li class="nav-item">
+           <a class="nav-link" href="index.html">Home</a>
+       </li>
+       <li class="nav-item">
+           <a class="nav-link" href="months.html">Month</a>
+       </li>
+       <li class="nav-item">
+           <a class="nav-link" href="#">About Us</a>
+       </li>
+       <li class="nav-item">
+           <a class="nav-link" href="#contact.html">Contact Us</a>
+       </li>
+       <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+   </ul>
+  </div>
+</div>
+</nav>
+
+<!-- contact -->
+
+    
+
+<br><br><br><br><br><br><br><br><br>
+
+    <!-- footer  -->
+
+<svg viewBox="0 0 120 28">
+ <defs> 
+    <filter id="goo">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1" result="blur" />
+      <feColorMatrix in="blur" mode="matrix" values="
+           1 0 0 0 0  
+           0 1 0 0 0  
+           0 0 1 0 0  
+           0 0 0 13 -9" result="goo" />
+      <xfeBlend in="SourceGraphic" in2="goo" />
+    </filter>
+     <path id="wave" d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z" />
+  </defs> 
+
+   <use id="wave3" class="wave" xlink:href="#wave" x="0" y="-20" ></use> 
+   <use id="wave2" class="wave" xlink:href="#wave" x="0" y="-18" ></use>
+    <g class="gooeff" filter="url(#goo)">
+  <use id="wave1" class="wave" xlink:href="#wave" x="0" y="-19" />
+ </g>
+ <g>
+
+  <use id="wave1" class="wave" xlink:href="#wave" x="0" y="1" />
+ </g>  
+</svg>
+<footer>
+<div class="flexdisplay col-xs-4"> <div class="logo"><img src="Assets/orgLogo.png"></div>
+
+  <div class="newsletter col-xs-4">
+    <h3>Join Our Newsletter</h3>
+    <p class="footer-p">Enter Your Email to get our news and updates.</p>
+    <form>
+      <input type="email" placeholder="Enter your Email" required>
+      <button type="submit" class="send">Send</button>
+    </form>
+  </div>
+</div>
+  <span class="glyphicon glyphicon-chevron-up"></span>
+<br><br>
+
+<div class="scrollup">
+<a href="#myPage"><i class="fa fa-chevron-up"></i></a>
+</div>
+<div class="socialmedia">
+<i class="fa fa-twitter foot"></i>   <i class="fa fa-facebook-f foot"></i>  <i class="fa fa-instagram foot"></i>  <i class="fa fa-github foot" ></i>
+</div>
+<div>Made with ❤️ by <a href="">Catalyst</a></div>
+
+
+
+</footer>
+        <!-- jquery -->
+
+        <script>
+          $(document).ready(function(){
+            // Initialize Tooltip
+            $('[data-toggle="tooltip"]').tooltip();
+  
+            // Add smooth scrolling to all links in navbar + footer link
+            $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+  
+              // Make sure this.hash has a value before overriding default behavior
+              if (this.hash !== "") {
+  
+                // Prevent default anchor click behavior
+                event.preventDefault();
+  
+                // Store hash
+                var hash = this.hash;
+  
+                // Using jQuery's animate() method to add smooth page scroll
+                // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+                // $('html, body').animate({
+                //   scrollTop: $(hash).offset().top
+                // }, 900, function(){
+  
+                  // Add hash (#) to URL when done scrolling (default click behavior)
+                  window.location.hash = hash;
+                });
+              } // End if
+            });
+          })
+          </script>
+  
+  
+  
+  
+  
+  
+  
+  
+          <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
+  </html>
