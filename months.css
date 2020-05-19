@@ -151,6 +151,22 @@ body {
 	.time-2 {
 		left: -200px;
 	}
+
+	.time-3{
+		right: -200px;
+	}
+
+	.time-4{
+		right: -160px;
+	}
+
+	.time-5{
+		left: -170px;
+	}
+
+	.time-6{
+		right: -150px;
+	}
 }
 
 .timeline-content p,
