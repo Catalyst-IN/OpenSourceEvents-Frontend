@@ -60,7 +60,7 @@ h5{
 h2.abt{
   text-align: center;
   font-size: 3.5rem;
-  padding:  12% 0 2%;
+  padding:  8% 0 2%;
   font-family: serif;
 
 }
@@ -76,15 +76,19 @@ h2.abt{
 }
 
 .a1{
-  font-family: serif;
-  word-spacing:  4px;
+  font-family: Jost', sans-serif;
+  word-spacing:  2px;
+  line-height: 2rem;
 }
 .a3{
-word-spacing: 4px;
-  font-family: serif;
+word-spacing: 2px;
+  font-family:'Cormorant Garamond', serif ;
+  line-height: 2rem;
 }
 .a2{
-font-family: 'DM Mono', monospace;
+font-family: 'Cormorant Garamond', serif;
+word-spacing: 2px;
+line-height: 2rem;
 }
 
 
