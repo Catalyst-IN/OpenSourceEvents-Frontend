@@ -68,7 +68,7 @@ h2.abt{
 #about{
   text-align: left;
 
-  padding: 4% 20% 2%;
+  padding: 4% 17% 2%;
   color: black;
   font-size: 25px;
   line-height: 1.5rem;
@@ -76,7 +76,7 @@ h2.abt{
 }
 
 .a1{
-  font-family: Jost', sans-serif;
+  font-family: 'Crimson Text', serif;;
   word-spacing:  2px;
   line-height: 2rem;
 }
