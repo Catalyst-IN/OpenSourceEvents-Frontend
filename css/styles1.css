@@ -58,37 +58,54 @@ h5{
 /*about*/
 
 h2.abt{
-  text-align: center;
+  text-align:center;
   font-size: 3.5rem;
   padding:  8% 0 2%;
   font-family: serif;
 
 }
 
-#about{
-  text-align: left;
 
-  padding: 4% 17% 2%;
-  color: black;
-  font-size: 25px;
-  line-height: 1.5rem;
-
-}
 
 .a1{
-  font-family: 'Crimson Text', serif;;
-  word-spacing:  2px;
+  font-family: Georgia, serif;
+  word-spacing:  1px;
   line-height: 2rem;
+  text-align: justify ;
+  padding:  2% 12.5% 0 15%;
+  margin: auto;
+  color: black;
+  font-size: 20px;
+
 }
 .a3{
-word-spacing: 2px;
-  font-family:'Cormorant Garamond', serif ;
+word-spacing: 1px;
+  font-family:Georgia, serif ;
   line-height: 2rem;
+  text-align: justify;
+  padding:  1% 12.5% 0 15%;
+  margin:auto;
+
+
+  color: black;
+  font-size: 20px;
+
 }
 .a2{
-font-family: 'Cormorant Garamond', serif;
-word-spacing: 2px;
+font-family: Georgia, serif;
+word-spacing: 1px;
 line-height: 2rem;
+text-align: justify; 
+margin: auto;
+padding: 1% 12.5% 0 15%;
+color: black;
+  font-size: 20px;
+}
+.a4{
+  text-align: center;
+  margin-top: 2%;
+  color: black;
+  font-size: 23px;
 }
 
 
