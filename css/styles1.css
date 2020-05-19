@@ -97,79 +97,29 @@ h5{
 
 /* title */
 #title{
-  background-color:#808080;
+  background-color:black;
   color: #fff;
   margin-top:0;
--webkit-animation:colorchange 20s infinite alternate;
 }
-@-webkit-keyframes colorchange {
-      0% {
-        
-        color: blue;
-      }
-      
-      10% {
-        
-        color: #ee7752;
-      }
-      
-      20% {
-        
-        color: #9f7287;
-      }
-      
-      30% {
-        
-        color: #23a6d5;
-      }
-      
-      40% {
-        
-        color: #23d5ab;
-      }
-      
-      50% {
-        
-        color: #34495e;
-      }
-      
-      60% {
-        
-        color: #f39da3;
-      }
-      
-      70% {
-        
-        color: #2980b9;
-      }
-      80% {
-     
-        color: #f1c40f;
-      }
-      
-      90% {
-     
-        color: #2980b9;
-      }
-      
-      100% {
-        
-        color: #d8d0b8;
-      }
-    }
+
 .quotes{
   font-size: 35px;
   margin:7% 5% 5% 5%;
   color: black;
 }
 .image{
-  width: 70%;
+  width: 111%;
 
-  padding-top: 30%;
-  transform: rotate(25deg);
+  padding-top: 0%;
+  transform: rotate(0deg);
   position: absolute;
-  right: 10%;
+  right: 0%;
 
+}
+.rows{
+  padding-bottom: 12%;
+  flex-wrap: wrap;
+  display: flex;
 }
 
 /* motivation */
