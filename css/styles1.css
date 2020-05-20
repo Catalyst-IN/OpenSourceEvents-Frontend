@@ -391,33 +391,25 @@ color: black;
 
 
 #months{
- 	background: linear-gradient(-45deg, #ee7752, #9f7287, #23a6d5, #23d5ab, #f39da3, #d8d0b8);
- 	background-size: 400% 400%;
- 	animation: gradientBG 15s ease infinite;
+   background-color: #fff;
+    	background-size: 400% 400%;
 	font-size: 1.2rem;
 	color: #fff;
         border-radius: 10px 1px 1px;
         box-shadow: 10px 10px 5px grey;
  }
 
-
-
- @keyframes gradientBG {
- 	0% {
- 		background-position: 0% 50%;
- 	}
- 	50% {
- 		background-position: 100% 50%;
- 	}
- 	100% {
- 		background-position: 0% 50%;
- 	}
-
-}
-
 #months.li{
   text-align:left;
   margin-left: 50%;
+  color: black;
+}
+#months .description,h5,h2{
+  color:black;
+}
+
+#months h2{
+  font-size:40px;
 }
 .carousel-item{
   padding: 7% 15%;
