@@ -2,132 +2,135 @@ body{
     background-color: black !important;
 }
 .team-image{
-
-        border-radius: 50%;
-    height: 155px;
-    width: 155px;
+  
+      border-radius: 50%;
+  height: 155px;
+  width: 155px;
 }
 .team-image:hover
 {
-   border-radius: 50%;
-    height: 155px;
-    width: 155px;
+ border-radius: 50%;
+  height: 155px;
+  width: 155px;
+  
+  transform: scale(0.9);
+  
 
-    transform: scale(0.9);
 
-
-
-}
-section{
-  color: white;
-  padding: 5%;
-  margin-left: 2% !important;
 }
 h2{
-    color:#fff;
+  color:#fff;
 }
 p{
-    color:grey;
+  color:grey;
 }
 
 .developer-image{
-
-        border-radius: 50%;
-    height: 30px;
-    width: 30px;
-
-
+  
+      border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  
+  
 }
 
 .wrapper.style2 {
-    background: #192024;
-    color: #c5c7c8;
+  background: #192024;
+  color: #c5c7c8;
 }
 
 header.major {
-    text-align: center;
-    margin: 0 0 4em 0;
+  text-align: center;
+  margin: 0 0 4em 0;
 }
 
 .container {
-    max-width: none!important;
-    min-width: 0!important;
-    width: 100%!important;
-    margin-left: auto;
-    margin-right: auto;
+  max-width: none!important;
+  min-width: 0!important;
+  width: 100%!important;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .top{
-    margin-left: 21em;
+  margin-left: 21em;
 }
 .middle{
-    margin-left: 12em;
+  margin-left: 12em;
 }
 .bottom{
-    margin-left: 26em;
+  margin-left: 20em;
 }
 .row {
-   padding: 0 0 0 2rem;
+ padding: 0 0 0 2rem; 
 }
 
 .row:after {
-    content: '';
-    display: block;
-    clear: both;
-    height: 0;
+  content: '';
+  display: block;
+  clear: both;
+  height: 0;
 }
 
 .member{
-  width: 250px;
-    display: inline-block;
-    vertical-align: top;
-    margin-top: 25px;
+width: 250px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 25px;
 }
 
 .row::after {
-  content: "";
-  clear: both;
-  display: table;
+content: "";
+clear: both;
+display: table;
 }
 
 #footer {
-    padding: 4em 0;
-}git
+  padding: 4em 0;
+}git 
 .member-name{
-    color: aliceblue;
-     font-weight: bold;
+  color: aliceblue;
+   font-weight: bold;
 }
 
 .member-position{
-     color: aliceblue;
-    font-style: oblique;
-    margin-left: 1.2em;
+   color: aliceblue;
+  font-style: oblique;
+  margin-left: 1.2em;
 }
 
 .developer{
-    margin: 10px;
-    align-content: center;
-
-
+  margin: 10px;
+  align-content: center;
+  
+  
 }
 .member-name{
-    color:rgba(255, 255, 255, 0.5);
+  color:rgba(255, 255, 255, 0.5);
 }
 
 .team-image-container{
-    margin-left: -2em;
+  margin-left: -2em;
 }
 .member-social{
-    margin-left: 1.5em;
-    padding-top: 0.2em;
+  margin-left: 1.5em;
+  padding-top: 0.2em;
 }
 #ch{
-
-    margin: 10px;
-    align-content: center;
+  
+  margin: 10px;
+  align-content: center;
 }
 .fa{
-    color:rgba(255, 255, 255, 0.5);
+  color:rgba(255, 255, 255, 0.5);
+}
+@media screen and (min-width: 780px){
+  .eventtopper h3{
+      font-size: 4rem;
+  }
+  .eventtopper ol li h4{
+      font-size: 1.7rem;
+  }
 }
 /* header */
 .navbar {
