@@ -1,10 +1,8 @@
-
-
 body{
-    background-color: black;
+    background-color: black !important;
 }
 .team-image{
-    
+
         border-radius: 50%;
     height: 155px;
     width: 155px;
@@ -14,11 +12,16 @@ body{
    border-radius: 50%;
     height: 155px;
     width: 155px;
-    
+
     transform: scale(0.9);
-    
 
 
+
+}
+section{
+  color: white;
+  padding: 5%;
+  margin-left: 2% !important;
 }
 h2{
     color:#fff;
@@ -28,12 +31,12 @@ p{
 }
 
 .developer-image{
-    
+
         border-radius: 50%;
     height: 30px;
     width: 30px;
-    
-    
+
+
 }
 
 .wrapper.style2 {
@@ -64,7 +67,7 @@ header.major {
     margin-left: 26em;
 }
 .row {
-   padding: 0 0 0 2rem; 
+   padding: 0 0 0 2rem;
 }
 
 .row:after {
@@ -89,7 +92,7 @@ header.major {
 
 #footer {
     padding: 4em 0;
-}git 
+}git
 .member-name{
     color: aliceblue;
      font-weight: bold;
@@ -104,13 +107,13 @@ header.major {
 .developer{
     margin: 10px;
     align-content: center;
-    
-    
+
+
 }
 .member-name{
     color:rgba(255, 255, 255, 0.5);
 }
- 
+
 .team-image-container{
     margin-left: -2em;
 }
@@ -119,13 +122,99 @@ header.major {
     padding-top: 0.2em;
 }
 #ch{
-    
+
     margin: 10px;
     align-content: center;
 }
 .fa{
     color:rgba(255, 255, 255, 0.5);
 }
+/* header */
+.navbar {
+   font-family: 'Comfortaa', cursive;
+  margin-bottom: 0;
+  background-color: #0a0a07 ;
+  border: 0;
+  font-size: 15px ;
+  font-weight: bold;
+  letter-spacing:3px;
+  opacity: 0.9;
+}
+.navbar-brand{
+  margin-left: 60px;
+}
+.navbar li a, .navbar .navbar-brand {
+  color: #d5d5d5 ;
+
+}
+.nav-link{
+  color: #ffd633 !important;
+}
+.navbar-nav li a:hover {
+
+}
+.navbar-nav li.active a {
+  color: #fff !important;
+  background-color: #29292c !important;
+}
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+
+.fab{
+  font-size: 50px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.menu-1{
+  background: #0a0a07;
+}
+.menu ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.menu li{
+  display: inline-block;
+  margin: 0 15px;
+}
+.menu a{
+  font-size: 22px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  position: relative;
+  padding: 4px 0;
+}
+.menu a::before{
+  content: "";
+  width: 100%;
+  height: 4px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: #fff;
+  transition: 0.5s transform ease;
+  transform: scale3d(0,1,1);
+  transform-origin: 0 50%;
+}
+.menu a:hover::before{
+  transform: scale3d(1,1,1);
+}
+.menu-1 a::before{
+  background: #ffffff;
+  transform-origin: 100% 50%;
+}
+.menu-1 a:hover::before{
+  transform-origin: 0 50%;
+}
+
+
 @media screen and (min-width: 780px){
     .eventtopper h3{
         font-size: 4rem;
