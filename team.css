@@ -133,7 +133,7 @@ header.major {
 .navbar {
    font-family: 'Comfortaa', cursive;
   margin-bottom: 0;
-  background-color: #0a0a07 ;
+  background-color: grey !important ;
   border: 0;
   font-size: 15px ;
   font-weight: bold;
@@ -155,7 +155,7 @@ header.major {
 }
 .navbar-nav li.active a {
   color: #fff !important;
-  background-color: #29292c !important;
+  background-color: grey !important;
 }
 .navbar-default .navbar-toggle {
   border-color: transparent;
