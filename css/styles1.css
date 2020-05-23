@@ -155,7 +155,7 @@ color: black;
   background-color: #0a0a07 ;
   border: 0;
   font-size: 15px ;
-  font-weight: bold;
+  /*font-weight: bold;*/
   letter-spacing:3px;
   opacity: 0.9;
 }
