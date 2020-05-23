@@ -50,12 +50,12 @@ h5{
 /*navigation Bar*/
 
 .navbar {
-  font-family: 'Montserrat-bold', sans-serif;
+  /*font-family: 'Montserrat-bold', sans-serif;*/
   margin-bottom: 0;
   background-color: #2d2d30;
   border: 0;
   font-size: 11px !important;
-  letter-spacing: 4px;
+  /*letter-spacing: 4px;*/
   opacity: 0.9;
 }
 .navbar li a, .navbar .navbar-brand {
