@@ -1,8 +1,9 @@
 body{
     background-color: black !important;
+    color: white !important;
 }
 .team-image{
-  
+
       border-radius: 50%;
   height: 155px;
   width: 155px;
@@ -12,11 +13,14 @@ body{
  border-radius: 50%;
   height: 155px;
   width: 155px;
-  
+
   transform: scale(0.9);
-  
 
 
+
+}
+section{
+  padding-top: 50px;
 }
 h2{
   color:#fff;
@@ -26,12 +30,12 @@ p{
 }
 
 .developer-image{
-  
+
       border-radius: 50%;
   height: 30px;
   width: 30px;
-  
-  
+
+
 }
 
 .wrapper.style2 {
@@ -62,7 +66,7 @@ header.major {
   margin-left: 20em;
 }
 .row {
- padding: 0 0 0 2rem; 
+ padding: 0 0 0 2rem;
 }
 
 .row:after {
@@ -87,7 +91,7 @@ display: table;
 
 #footer {
   padding: 4em 0;
-}git 
+}git
 .member-name{
   color: aliceblue;
    font-weight: bold;
@@ -102,8 +106,8 @@ display: table;
 .developer{
   margin: 10px;
   align-content: center;
-  
-  
+
+
 }
 .member-name{
   color:rgba(255, 255, 255, 0.5);
@@ -117,7 +121,7 @@ display: table;
   padding-top: 0.2em;
 }
 #ch{
-  
+
   margin: 10px;
   align-content: center;
 }
