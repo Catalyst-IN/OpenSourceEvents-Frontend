@@ -21,6 +21,10 @@ This website contains a list of open source events and hackathons. They are in a
 
 ![about](https://user-images.githubusercontent.com/56690856/82762250-8de42200-9e1d-11ea-9be4-62c535dfcf33.png)
 
+**Team Page**
+
+![team](https://user-images.githubusercontent.com/56690856/82762418-8a9d6600-9e1e-11ea-9bd1-c99fd2434bcd.png)
+
 **Footer Section**
 
 ![footer](https://user-images.githubusercontent.com/56690856/82762228-79078e80-9e1d-11ea-838f-94fcd63fef56.png)
