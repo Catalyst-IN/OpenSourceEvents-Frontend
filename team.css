@@ -1,24 +1,23 @@
 body{
     background-color: black !important;
     color: white !important;
+    overflow-x: hidden;
 }
-.team-image{
 
-      border-radius: 50%;
+.team-image{
+  border-radius: 50%;
   height: 155px;
   width: 155px;
 }
+
 .team-image:hover
 {
- border-radius: 50%;
+  border-radius: 50%;
   height: 155px;
   width: 155px;
-
   transform: scale(0.9);
-
-
-
 }
+
 section{
   padding-top: 50px;
 }
@@ -30,12 +29,9 @@ p{
 }
 
 .developer-image{
-
-      border-radius: 50%;
+  border-radius: 50%;
   height: 30px;
   width: 30px;
-
-
 }
 
 .wrapper.style2 {
@@ -57,10 +53,12 @@ header.major {
 }
 
 .top{
-  margin-left: 21em;
+  margin-left: 27.5em;
+  margin-right: 15em;
 }
 .middle{
-  margin-left: 12em;
+  margin-left: 26.5em;
+  margin-right: 15em;
 }
 .bottom{
   margin-left: 20em;
@@ -77,28 +75,29 @@ header.major {
 }
 
 .member{
-width: 250px;
+  width: 250px;
   display: inline-block;
   vertical-align: top;
   margin-top: 25px;
 }
 
 .row::after {
-content: "";
-clear: both;
-display: table;
+  content: "";
+  clear: both;
+  display: table;
 }
 
 #footer {
   padding: 4em 0;
-}git
+}
+
 .member-name{
   color: aliceblue;
-   font-weight: bold;
+  font-weight: bold;
 }
 
 .member-position{
-   color: aliceblue;
+  color: aliceblue;
   font-style: oblique;
   margin-left: 1.2em;
 }
@@ -106,9 +105,8 @@ display: table;
 .developer{
   margin: 10px;
   align-content: center;
-
-
 }
+
 .member-name{
   color:rgba(255, 255, 255, 0.5);
 }
@@ -116,26 +114,30 @@ display: table;
 .team-image-container{
   margin-left: -2em;
 }
+
 .member-social{
   margin-left: 1.5em;
   padding-top: 0.2em;
 }
-#ch{
 
+#ch{
   margin: 10px;
   align-content: center;
 }
+
 .fa{
   color:rgba(255, 255, 255, 0.5);
 }
+
 @media screen and (min-width: 780px){
   .eventtopper h3{
-      font-size: 4rem;
+  font-size: 4rem;
   }
   .eventtopper ol li h4{
-      font-size: 1.7rem;
+  font-size: 1.7rem;
   }
 }
+
 /* header */
 .navbar {
   /* font-family: 'Comfortaa', cursive; */
@@ -148,23 +150,29 @@ display: table;
   /*letter-spacing:3px;*/
   opacity: 0.9;
 }
+
 .navbar-brand{
   margin-left: 60px;
 }
+
 .navbar li a, .navbar .navbar-brand {
   color: #d5d5d5 ;
 
 }
+
 .nav-link{
   color: #ffd633 !important;
 }
+
 .navbar-nav li a:hover {
 
 }
+
 .navbar-nav li.active a {
   color: #fff !important;
   background-color: grey !important;
 }
+
 .navbar-default .navbar-toggle {
   border-color: transparent;
 }
@@ -177,19 +185,23 @@ display: table;
   margin: 0;
   padding: 0;
 }
+
 .menu-1{
   background: #0a0a07;
 }
+
 .menu ul{
   list-style: none;
   margin: 0;
   padding: 0;
   text-align: center;
 }
+
 .menu li{
   display: inline-block;
   margin: 0 15px;
 }
+
 .menu a{
   font-size: 22px;
   text-transform: uppercase;
@@ -199,6 +211,7 @@ display: table;
   position: relative;
   padding: 4px 0;
 }
+
 .menu a::before{
   content: "";
   width: 100%;
@@ -211,23 +224,17 @@ display: table;
   transform: scale3d(0,1,1);
   transform-origin: 0 50%;
 }
+
 .menu a:hover::before{
   transform: scale3d(1,1,1);
 }
+
 .menu-1 a::before{
   background: #ffffff;
   transform-origin: 100% 50%;
 }
+
 .menu-1 a:hover::before{
   transform-origin: 0 50%;
 }
 
-
-@media screen and (min-width: 780px){
-    .eventtopper h3{
-        font-size: 4rem;
-    }
-    .eventtopper ol li h4{
-        font-size: 1.7rem;
-    }
-}
