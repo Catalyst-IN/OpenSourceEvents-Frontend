@@ -13,7 +13,7 @@ This website contains a list of open source events and hackathons. They are in a
 **Detail of events according the month**
 
 <p align="center">
-<img src="(https://user-images.githubusercontent.com/56690856/82825733-5df25880-9ec9-11ea-8cd2-6c6a0ef112e2.png" width="500" height="300">
+<img src="https://user-images.githubusercontent.com/56690856/82825733-5df25880-9ec9-11ea-8cd2-6c6a0ef112e2.png" width="500" height="300">
  </p>
 
 ## Configure remotes
