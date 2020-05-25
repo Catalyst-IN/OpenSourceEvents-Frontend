@@ -6,12 +6,15 @@ This website contains a list of open source events and hackathons. They are in a
 ## ScreenShots
 
 **Home Page**
-
-<img src="https://user-images.githubusercontent.com/56690856/82825139-48c8fa00-9ec8-11ea-8b80-a9c9de71a2bd.jpg" width="500" height="300">
+<p align="center">
+<img src="https://user-images.githubusercontent.com/56690856/82825139-48c8fa00-9ec8-11ea-8b80-a9c9de71a2bd.jpg" width="500" height="400">
+ </p>
 
 **Detail of events according the month**
 
+<p align="center">
 <img src="https://user-images.githubusercontent.com/56690856/82762222-6d1bcc80-9e1d-11ea-9f13-33f68c6b82bb.png" width="500" height="300">
+ </p>
 
 ## Configure remotes
 When a repository is cloned, it has a default remote called `origin` that points to your fork on GitHub, not the original repository it was forked from. To keep track of the original repository, you should add another remote named `upstream`:<br />
