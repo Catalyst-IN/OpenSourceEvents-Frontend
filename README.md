@@ -4,9 +4,17 @@ This website contains a list of open source events and hackathons. They are in a
 ## website-https://opensourcefrontend.netlify.app/
 
 ## ScreenShots
-![](https://raw.githubusercontent.com/Catalyst-SMVD/OpenSourceEvents-Frontend/master/Assets/open.png)
 
-![](https://raw.githubusercontent.com/Catalyst-SMVD/OpenSourceEvents-Frontend/master/Assets/timeline.png)
+**Home Page**
+<p align="center">
+<img src="https://user-images.githubusercontent.com/56690856/82825139-48c8fa00-9ec8-11ea-8b80-a9c9de71a2bd.jpg" width="500" height="400">
+ </p>
+
+**Detail of events according the month**
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/56690856/82825733-5df25880-9ec9-11ea-8cd2-6c6a0ef112e2.png" width="500" height="300">
+ </p>
 
 ## Configure remotes
 When a repository is cloned, it has a default remote called `origin` that points to your fork on GitHub, not the original repository it was forked from. To keep track of the original repository, you should add another remote named `upstream`:<br />
@@ -67,7 +75,7 @@ This will give you an exact copy of the current remote, make sure you don't have
 <br>
 
 ## Contact
- 
+
 You can reach the maintainers and our community on [Catalyst-discord](https://discord.gg/dHtDhHa). If you are interested in contributing to the OpenSourceEvents-Frontend, we have a dedicated stream for this project [#OpenSourceEvents-Frontend](https://discord.gg/9wmvkGW), where you can ask questions and interact with the community, join with us!
 
 💜 **Thanks**
