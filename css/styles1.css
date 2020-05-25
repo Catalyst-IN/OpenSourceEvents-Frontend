@@ -547,3 +547,32 @@ p{
   width: 100%;
   height: 10px;
 }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 5px solid black;
+  background-image: none;
+  border-color: black;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: blue;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color:blue;
+}
+
+.time{
+  background-color: yellow !important;
+}
