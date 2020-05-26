@@ -563,14 +563,22 @@ p{
 .carousel-control-next-icon:after
 {
   content: '>';
-  font-size: 55px;
+  font-size: 60px;
   color: blue;
+  margin-top: -10px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
 
 .carousel-control-prev-icon:after {
   content: '<';
-  font-size: 55px;
+  font-size: 60px;
   color:blue;
+  margin-top: -10px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
 
 .time{
