@@ -245,9 +245,7 @@ display: table;
   padding: 15px;
 }
 
-.fa-chevron-up{
-  margin-top: -40px !important;
-}
+
 
 .scrollup{
   background-color: #ffd633;
@@ -256,10 +254,19 @@ display: table;
   width: 50px;
   height: 50px;
   margin-left: 90%;
-  font-size: 20px;
 }
 
 .scrollup i{
   color: white;
   margin-top: 25px;
+}
+
+.fa-chevron-up{
+  margin-top: -10px !important;
+  color: #ef8172;
+  font-size:20px;
+}
+
+.fa-chevron-up:hover{
+  color: #ff4c68;
 }
