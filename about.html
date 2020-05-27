@@ -18,7 +18,10 @@
     <link rel="stylesheet" href="rj.css">
   </head>
   <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
-
+    <div class="scrollup" onclick="topFunction()" id="scroll" title="Go to top">
+      <i class="fa fa-chevron-up"></i>
+    </div>
+    <!-- navbar -->
     <nav class="navbar  navbar-expand-lg navbar-dark  navbar-fixed-top menu menu-1">
     <div class="container-fluid">
       <div class="navbar-header">
@@ -139,10 +142,6 @@
           <button type="submit" class="send">Send</button>
         </form>
       </div>
-    <div class="scrollup">
-      <a href="#myPage"><i class="fa fa-chevron-up"></i></a>
-    </div>
-
     </div>
   </div>
 
@@ -179,14 +178,7 @@
             });
           })
           </script>
-
-
-
-
-
-
-
-
+          <script src="scroll.js"></script>
           <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
           <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
           <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
