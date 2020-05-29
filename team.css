@@ -62,25 +62,6 @@ header.major {
 }
 .row {
   width: 100%;
-.container {
-  max-width: none !important;
-  min-width: 0 !important;
-  width: 100% !important;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.top {
-  margin-left: 21em;
-}
-.middle {
-  margin-left: 12em;
-}
-.bottom {
-  margin-left: 20em;
-}
-.row {
-  padding: 0 0 0 2rem;
 }
 
 .row:after {
@@ -107,7 +88,6 @@ header.major {
   padding: 4em 0;
 }
 .member-name {
-git .member-name {
   color: aliceblue;
   font-weight: bold;
 }
