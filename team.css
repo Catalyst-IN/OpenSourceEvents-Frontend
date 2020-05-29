@@ -40,6 +40,28 @@ header.major {
   margin: 0 0 4em 0;
 }
 
+/* .container {
+  max-width: none!important;
+  min-width: 0!important;
+  width: 100%!important;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+.top {
+  margin-left: 21em;
+  text-align: center;
+}
+.middle {
+  margin-left: 12em;
+  text-align: center;
+}
+.bottom {
+  margin-left: 20em;
+  text-align: center;
+}
+.row {
+  width: 100%;
 .container {
   max-width: none !important;
   min-width: 0 !important;
@@ -84,6 +106,7 @@ header.major {
 #footer {
   padding: 4em 0;
 }
+.member-name {
 git .member-name {
   color: aliceblue;
   font-weight: bold;
