@@ -82,28 +82,62 @@
 
 <!-- contact -->
 
-    <div class="container1">
+<div class="container1">
   <form id="contact" action="" method="post">
     <h3 style="color: black;">Contact Us</h3>
     <h4>Contact us today, and we will get back to you asap!</h4>
     <fieldset>
-      <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+      <input
+        class="inputdata"
+        placeholder="Your name"
+        pattern="[a-zA-Z]+"
+        oninvalid="setCustomValidity('Please enter alphabets only. ')"
+        tabindex="1"
+        required
+        autofocus
+      />
     </fieldset>
     <fieldset>
-      <input placeholder="Your Email Address" type="email" tabindex="2" required>
+      <input
+        class="inputdata"
+        placeholder="Your Email Address"
+        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+        oninvalid="setCustomValidity('Please enter valid email ID. ')"
+        tabindex="2"
+        required
+      />
     </fieldset>
     <fieldset>
-      <input placeholder="Your Phone Number" type="tel" tabindex="3"  required>
+      <input
+        class="inputdata"
+        placeholder="Your Phone Number"
+        pattern="[+0-9]+"
+        oninvalid="setCustomValidity('Please enter valid phone number. ')"
+        maxlength="15"
+        tabindex="3"
+        required
+      />
     </fieldset>
     <fieldset>
-      <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+      <textarea
+        placeholder="Type your Message Here...."
+        tabindex="5"
+        maxlength="100"
+        required
+      ></textarea>
     </fieldset>
     <fieldset>
-      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending" style="background-color: black;">Submit</button>
+      <button
+        name="submit"
+        type="submit"
+        id="contact-submit"
+        data-submit="...Sending"
+        style="background-color: black;"
+      >
+        Submit
+      </button>
     </fieldset>
   </form>
-
-
 </div>
 
 <br><br><br><br><br><br><br><br><br>
