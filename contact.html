@@ -66,13 +66,13 @@
     <h3 style="color: black;">Contact Us</h3>
     <h4>Contact us today, and we will get back to you asap!</h4>
     <fieldset>
-      <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+      <input class="inputdata" placeholder="Your name" oninvalid="alert('Your name must contain only alphabets');" pattern="[a-zA-Z]+" tabindex="1"  required autofocus>
     </fieldset>
     <fieldset>
-      <input placeholder="Your Email Address" type="email" tabindex="2" required>
+      <input class="inputdata" placeholder="Your Email Address" oninvalid="alert('Your Email Address must be in proper format');" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" tabindex="2" required>
     </fieldset>
     <fieldset>
-      <input placeholder="Your Phone Number" type="tel" tabindex="3"  required>
+      <input class="inputdata" placeholder="Your Phone Number" oninvalid="alert('Your Phone Number contain only numbers');" pattern="[0-9]+" tabindex="3" maxlength="15" required>
     </fieldset>
     <fieldset>
       <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
