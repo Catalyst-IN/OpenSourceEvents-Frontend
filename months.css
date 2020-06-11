@@ -330,3 +330,9 @@ h5 {
 		left: 60px;
 	}
 }
+
+@media (max-width:560px){
+	.end{
+		margin-bottom: 7rem;
+	}
+}
