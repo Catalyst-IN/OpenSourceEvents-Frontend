@@ -608,3 +608,19 @@ p{
   margin-top:0;
 
 }
+@media (max-width:570px){
+  #bottom{
+    padding-top: 2rem;
+  }
+  #secondfooter{
+    margin-bottom: 3rem;
+    margin-top:-5rem;
+  }
+  .send{
+    margin-top:0.7rem;
+    margin-bottom:2rem;
+  }
+  .footer-p{
+    margin-bottom: 0.5rem;
+  }
+}
