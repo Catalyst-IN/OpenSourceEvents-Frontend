@@ -2,6 +2,16 @@
 <html lang="en" dir="ltr">
 
 <head>
+  <style>
+.hide {
+  display: none;
+}
+    
+.myDIV:hover + .hide {
+  display: block;
+  color: gray;
+}
+</style>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1 ">
   <title>Open-Source Events & Hackathon's</title>
@@ -154,9 +164,12 @@
             <div class="timeline pt-5">
               <div class="timeline-container left">
                 <div class="timeline-content">
-                  <p class="description">
+                 <div class="myDIV"> 
+                  <p class="description"> 
                     <a href="https://summerofcode.withgoogle.com/">1. Google Summer Of Code.</a>
                   </p>
+                  </div> 
+                  <div class="hide">Google Summer of Code is a global program focused on introducing students to open source software development. Students work on a 3-month programming project with an open-source organization during their break from university.</div>
                   <p class="description">
                     <a href="https://github.com/JIITODC">2. JIIT Open-Source Developers Circle (JODC)</a>
                   </p>
