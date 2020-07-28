@@ -520,7 +520,8 @@
         <p class="footer-p">Enter Your Email to get our news and updates.</p>
         <form>
           <input type="email" placeholder="Enter your Email" required>
-          <button type="submit" class="send">Send</button>
+	  <!-- A pop-up to thank the user for subscribing to newsletter. -->
+          <button type="submit" class="send" onclick="notify()">Send</button>	
         </form>
       </div>
 
@@ -562,8 +563,11 @@
           })
   </script>
 
-
-
+<script>
+	function notify(){
+		  alert("Thank you for subscribing! We will keep you updated with the latest news and events on open-sourced contributions. Stay Tuned &#128522;!!");
+	}
+</script>
 
 
 
