@@ -26,11 +26,11 @@ a:hover{
 }
 
 h1{
-    font-family: 'Righteous', cursive;
-    font-size: 4rem;
-    font-weight: bold;
-    margin:20% 0 1rem 3rem;
-    line-height: 1.5;
+  font-family: 'Righteous', cursive;
+  font-size: 3rem;
+  font-weight: bold;
+  margin:20% 0 1rem 3rem;
+  line-height: 1.5;
 }
 h2{
   font-family: 'Righteous', cursive;
@@ -54,8 +54,68 @@ h5{
   padding: 5%;
 }
 
+/* Banner */
+.banner {
+  min-height: 400px;
+  margin: 0;
+}
 
-/*about*/
+.banner__header {
+  margin: 0;
+}
+
+@media (max-width: 480px) {
+  .banner {
+    min-height: auto;
+  }
+  .banner__header {
+    text-align: center;
+  }
+}
+
+/* About */
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1400px;
+  margin: 0 auto;
+  align-items: center;
+  padding: 25px 15px;
+}
+
+.about__wrapper {
+  padding: 0 15px;
+}
+
+.about__title {
+  color: #5e90e0;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: 'Baloo Da 2', cursive;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.about__title-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.about__description {
+  color: #000;
+}
+
+.about__img {
+  height: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.about__img img {
+  height: 100%;
+}
 
 h2.abt{
   text-align:center;
@@ -64,8 +124,6 @@ h2.abt{
   font-family: serif;
 
 }
-
-
 
 .a1{
   font-family: Georgia, serif;
@@ -78,29 +136,29 @@ h2.abt{
   font-size: 20px;
 
 }
+
 .a3{
-word-spacing: 1px;
+  word-spacing: 1px;
   font-family:Georgia, serif ;
   line-height: 2rem;
   text-align: justify;
   padding:  1% 12.5% 0 15%;
-  margin:auto;
-
-
+  margin: auto;
   color: black;
   font-size: 20px;
-
 }
+
 .a2{
-font-family: Georgia, serif;
-word-spacing: 1px;
-line-height: 2rem;
-text-align: justify;
-margin: auto;
-padding: 1% 12.5% 0 15%;
-color: black;
+  font-family: Georgia, serif;
+  word-spacing: 1px;
+  line-height: 2rem;
+  text-align: justify;
+  margin: auto;
+  padding: 1% 12.5% 0 15%;
+  color: black;
   font-size: 20px;
 }
+
 .a4{
   text-align: center;
   margin-top: 2%;
@@ -113,59 +171,51 @@ color: black;
   font-weight: 1500;
 }
   
-  #para3 {
+#para3 {
   font-size: 35px;
   font-weight: 1400;
 }
 
+.cabt {
+  width: 35%;
+  height: 2px;
+  background-color: grey;
+  position: relative;
+  margin: auto;
+}
 
-  .cabt{
-    width: 35%;
-    height: 2px;
-    background-color: grey;
-    position: relative;
-    margin: auto;
+#circle {
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border: solid 2px grey;
+  border-radius: 90%;
+  position: absolute;
+  top: -9px;
+  left: calc(50% - 5px);
+}
 
-
+@media (max-width: 480px) {
+  .about {
+    grid-template-columns: 1fr;
   }
-  #circle {
-    display: inline-block;
-    vertical-align: middle;
-    width: 20px;
-    height: 20px;
-    background-color: white;
-    border: solid 2px grey;
-    border-radius: 90%;
-    position: absolute;
-    top: -9px;
-    left: calc(50% - 5px);
-
+  .about__hackathon {
+    order: 2;
   }
+  .img__hackathon {
+    order: 1;
+  }
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* header */
+/* Header */
 .navbar {
-   font-family: 'Comfortaa', cursive;
+  font-family: 'Comfortaa', cursive;
   margin-bottom: 0;
   background-color: #0a0a07 ;
   border: 0;
   font-size: 15px ;
-  /*font-weight: bold;*/
-  /*letter-spacing:3px;*/
   opacity: 0.9;
 }
 .navbar-brand{
@@ -177,9 +227,6 @@ color: black;
 }
 .nav-link{
   color: #ffd633 !important;
-}
-.navbar-nav li a:hover {
-
 }
 .navbar-nav li.active a {
   color: #fff !important;
@@ -242,34 +289,26 @@ color: black;
   transform-origin: 0 50%;
 }
 
-
-
-
-
-
-/* title */
-
-.quotes{
+/* Title */
+.quotes {
   font-size: 35px;
   margin:7% 5% 5% 5%;
   color: black;
 }
-.image{
+.image {
   width: 100%;
   height: 100%;
   position: absolute;
 }
-.roww{
+.roww {
   padding-bottom: 12%;
   flex-wrap: wrap;
   display: flex;
   margin-right: 124px;
-margin-left: -22px;
+  margin-left: -22px;
 }
 
-/* motivation */
-
-
+/* Motivation */
 #info{
   background-color:#FFF;
   text-align: center;
@@ -278,20 +317,19 @@ margin-left: -22px;
   z-index:1;
 }
 
-  @media (max-width:995px) {
-    #title{
-      text-align: center;
-    }
+@media (max-width:995px) {
+  #title{
+    text-align: center;
+  }
 
   .image{
     width:100%;
     position: static;
     transform: rotate(0);
     padding:10% 10% 10% 10%;
-
-
   }
-  }
+}
+
 .p{
  color: black;
   letter-spacing: 2px;
@@ -618,7 +656,7 @@ p{
 
 }
 
-@media (max-width:570px){
+@media (max-width:570px) {
   #bottom{
     padding-top: 2rem;
   }
@@ -633,3 +671,10 @@ p{
   .footer-p{
     margin-bottom: 0.5rem;
   }
+}
+
+@media (max-width: 480px) {
+  .footer-wave {
+    display: none;
+  }
+}
