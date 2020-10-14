@@ -332,7 +332,7 @@ margin-left: -22px;
   z-index:1;
 }
 
-  @media (max-width:1200px) {
+  @media (max-width:995px) {
     #title{
       text-align: center;
     }
