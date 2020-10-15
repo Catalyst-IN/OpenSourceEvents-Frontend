@@ -229,6 +229,7 @@ h2.abt{
 .nav-link{
   color: #ffd633 !important;
 }
+
 .navbar-nav li.active a {
   color: #fff !important;
   background-color: #29292c !important;
@@ -290,13 +291,77 @@ h2.abt{
   transform-origin: 0 50%;
 }
 
-/* Title */
-.quotes {
-  font-size: 35px;
+
+
+
+
+
+
+/* title */
+
+.quotes{
+  font-size: 20px;
   margin:7% 5% 5% 5%;
   color: black;
 }
-.image {
+
+.quotes div{
+  overflow: hidden;
+  position: relative;
+  float: right;
+  height: 65px;
+}
+
+.quotes div li {
+  color: black;
+  font-weight: 700;
+  padding: 0 10px;
+  height: 45px;
+  margin-bottom: 45px;
+  display: block;
+  text-align: center;
+}
+
+.flip4 {
+  -webkit-animation: flip4 10s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
+          animation: flip4 10s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
+}
+
+@keyframes flip4 {
+  0% {
+    margin-top: -360px;
+  }
+  5% {
+    margin-top: -270px;
+  }
+  25% {
+    margin-top: -270px;
+  }
+  30% {
+    margin-top: -180px;
+  }
+  50% {
+    margin-top: -180px;
+  }
+  55% {
+    margin-top: -90px;
+  }
+  75% {
+    margin-top: -90px;
+  }
+  80% {
+    margin-top: 0px;
+  }
+  99.99% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: -270px;
+  }
+}
+
+.image{
+
   width: 100%;
   height: 100%;
   position: absolute;
@@ -332,9 +397,9 @@ h2.abt{
 }
 
 .p{
- color: black;
+  color: black;
   letter-spacing: 2px;
-  line-height: 20px;
+  line-height: 18px;
   margin-right: 10%;
   padding-right: 10%;
 }
@@ -343,10 +408,10 @@ h2.abt{
   line-height: 18px;
   margin-left: 10%;
   padding-left: 10%
-  color:black;
-
-
+  color black;
 }
+
+
 .hin{
   font-size: 30px;
   text-align: left;
@@ -687,10 +752,11 @@ p{
   .footer-p{
     margin-bottom: 0.5rem;
   }
-}
+
 
 @media (max-width: 480px) {
   .footer-wave {
     display: none;
   }
+
 }
