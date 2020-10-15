@@ -14,10 +14,9 @@
 </style>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1 ">
-  <title>Open-Source Events & Hackathon's</title>
+  <title>Open-Source Events & Hackathons</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/styles1.css">
   <script src="https://kit.fontawesome.com/0cd233bad9.js" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
@@ -27,6 +26,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <link rel="icon" href="Assets/favicon.ico">
+  <link rel="stylesheet" href="css/styles1.css">
   <link rel="stylesheet" href="rj.css">
   <link rel="stylesheet" href="months.css">
 
@@ -115,7 +115,10 @@
   <img class="img-fluid" src="Assets/programmer.png" height= "1200" width="1400">
 	</div>
   </div>
+  <div class="col-xl-7 col-lg-8 col-md-12 col-sm-12">
+  	<img class="image" src="assets/back.png" alt="os-image" >
   </div>
+
 
     <div id="one" class="col-lg-8 col-xs-12 col-md-6 text-left pl-5 pr-0 ml-0">
       <div class="row">
@@ -137,28 +140,57 @@
 </section>
 
 
-<section class="container-fluid pt-4">
-  <div class="row align-items-center">
-    <div id="one" class="col-lg-7 col-xs-12 col-md-6 text-left pl-0 pr-0 ml-0">
-      <div class="row">
-        <div class="col-1"></div>
-          <div class="col-10">
-			<b><p id="para3" align="center" style="color: #5e90e0;"><i class="fa fa-thumb-tack"></i> Hackathon</p></b>
-		  <p class="pa" style="color: black;"><b>A <b>hackathon </b> (also known as a <b>hack day</b>, <b>hackfest </b>or <b>codefest</b>; a
-          portmanteau of hacking marathon) is a design sprint-like event; often, in which computer programmers and
-          others involved in software development, including graphic designers, interface designers, project managers,
-          domain experts, and others collaborate intensively on software projects.</p></b>
-        <p class="pa" style="color: black;"><b>The goal of a hackathon is to create functioning software or hardware by the end of the event.
-          Hackathons tend to have a specific focus, which can include the programming language used, the operating
-          system, an application, an API, or the subject and the demographic group of the programmers</p></b>
 
-  </div>
-  </div>
+<div class="quo">
+  <h3 class="quotes">
+    <em>“When you don't create things, you become defined by your tastes rather than ability.
+          Your tastes only narrow & exclude people. so create.”</em>
+  </h3>
 </div>
 
-  <div class="col-lg-4 col-md-6 col-xs-12 pl-5 pr-5 pb-2 pt-2">
-      <img class="img-fluid" src="Assets/giphy.gif" width="800">
+<section class="about">
+  <div class="about__img">
+    <img class="img-fluid" src="Assets/programmer.png" alt="">
   </div>
+  <div id="one" class="about__wrapper">
+    <div>
+      <div class="about__title-wrapper">
+        <i class="fa fa-hand-peace-o"></i>
+        <h3 class="about__title">Open Source</h3>
+      </div>
+      <p class="about__description">
+        <b>The term <em>open source</em> refers to something people can modify and share because its design is
+        publicly accessible.<br>
+        The term originated in the context of software development to designate a specific approach to
+        creating computer programs. Today, however, <em>"open source"</em> designates a broader set of values—what we
+        call <em>"the open source way."</em> Open source projects, products, or initiatives embrace and celebrate
+        principles of open exchange, collaborative participation, rapid prototyping, transparency, meritocracy, and
+        community-oriented development.</em></b>
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="about">
+  <div id="one" class="about__wrapper about__hackathon">
+      <div>
+        <div class="about__title-wrapper">
+          <i class="fa fa-thumb-tack"></i>
+          <h3 class="about__title">Hackathon</h3>
+        </div>
+        <p class="about__description">
+          <b>A <b>hackathon </b> (also known as a <b>hack day</b>, <b>hackfest </b>or <b>codefest</b>; a
+            portmanteau of hacking marathon) is a design sprint-like event; often, in which computer programmers and
+            others involved in software development, including graphic designers, interface designers, project managers,
+            domain experts, and others collaborate intensively on software projects.</b>
+          <b>The goal of a hackathon is to create functioning software or hardware by the end of the event.
+            Hackathons tend to have a specific focus, which can include the programming language used, the operating
+            system, an application, an API, or the subject and the demographic group of the programmers</b>
+        </p>
+      </div>
+  </div>
+  <div class="about__img img__hackathon">
+    <img class="img-fluid" src="Assets/giphy.gif" alt="">
   </div>
 </section>
 
@@ -622,39 +654,34 @@ The contest runs until February. Grand prize winners will be invited to present 
 
   </div>
 
-  <br><br><br><br><br><br><br><br><br>
-
   <!-- footer  -->
 
-
-
-  <svg viewBox="0 0 120 28">
-    <defs>
-      <filter id="goo">
-        <feGaussianBlur in="SourceGraphic" stdDeviation="1" result="blur" />
-        <feColorMatrix in="blur" mode="matrix" values="
-           1 0 0 0 0
-           0 1 0 0 0
-           0 0 1 0 0
-           0 0 0 13 -9" result="goo" />
-        <xfeBlend in="SourceGraphic" in2="goo" />
-      </filter>
-      <path id="wave"
-        d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z" />
-    </defs>
-
-    <use id="wave3" class="wave" xlink:href="#wave" x="0" y="-6"></use>
-    <use id="wave2" class="wave" xlink:href="#wave" x="0" y="-5"></use>
-    <g class="gooeff" filter="url(#goo)">
-    <use id="wave1" class="wave" xlink:href="#wave" x="0" y="-7" />
-    </g>
-    <g>
-
-      <use id="wave1" class="wave" xlink:href="#wave" x="0" y="1" />
-    </g>
-  </svg>
-
   <footer id="bottom">
+    <svg class="footer-wave" viewBox="0 0 120 28">
+      <defs>
+        <filter id="goo">
+          <feGaussianBlur in="SourceGraphic" stdDeviation="1" result="blur" />
+          <feColorMatrix in="blur" mode="matrix" values="
+             1 0 0 0 0
+             0 1 0 0 0
+             0 0 1 0 0
+             0 0 0 13 -9" result="goo" />
+          <xfeBlend in="SourceGraphic" in2="goo" />
+        </filter>
+        <path id="wave"
+          d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z" />
+      </defs>
+  
+      <use id="wave3" class="wave" xlink:href="#wave" x="0" y="-6"></use>
+      <use id="wave2" class="wave" xlink:href="#wave" x="0" y="-5"></use>
+      <g class="gooeff" filter="url(#goo)">
+      <use id="wave1" class="wave" xlink:href="#wave" x="0" y="-7" />
+      </g>
+      <g>
+  
+        <use id="wave1" class="wave" xlink:href="#wave" x="0" y="1" />
+      </g>
+    </svg>
     <div class="flexdisplay">
 
   <div class="row container-fluid">
