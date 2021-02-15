@@ -19,3 +19,14 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+
+function enter(element) {
+  element.children[1].style.display = 'block';
+
+}
+
+function exit(element) {
+  element.children[1].style.display = 'none';
+
+}
