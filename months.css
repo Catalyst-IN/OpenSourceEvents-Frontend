@@ -21,7 +21,14 @@ body {
 	font-family: 'Lato', sans-serif;
 	-webkit-font-smoothing: antialiased;
 }
-
+section p.p {
+	font-family: 'Lobster Two', cursive;
+	font-size: 1rem;
+   }
+   section p.pa {
+	font-family: 'Lobster Two', cursive;
+	font-size: 1rem;
+   }
 .upcoming-events {
 	padding-top: 5%;
 	background-color: var(--bg1-color);
