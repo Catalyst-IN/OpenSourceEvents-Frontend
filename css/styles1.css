@@ -677,6 +677,7 @@ p{
 }
 
 .quote-text {
+  font-family: "Lora";
   font-style: italic;
   letter-spacing: 2px;
 }
