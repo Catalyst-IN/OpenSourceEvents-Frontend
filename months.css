@@ -22,6 +22,21 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
+ /* changing font of hackathon and open source definition */
+
+
+ section p.p {
+	font-family: 'Lobster Two', cursive;
+	font-size: 1rem;
+   }
+
+section p.pa {
+	font-family: 'Lobster Two', cursive;
+	font-size: 1rem;
+   }
+
+   /* -- */
+
 .upcoming-events {
 	padding-top: 5%;
 	background-color: var(--bg1-color);
