@@ -672,6 +672,24 @@ p{
 
 }
 
+.quote {
+  margin: 0;
+}
+
+.quote-text {
+  font-family: "Lora";
+  font-style: italic;
+  letter-spacing: 2px;
+}
+
+.quote-author {
+  font-weight: bold;
+}
+
+.quote-notation {
+  font-size: 1.3em;
+}
+
 @media (max-width:570px){
   #bottom{
     padding-top: 2rem;
