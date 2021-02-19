@@ -593,7 +593,7 @@ input{
 /*content*/
 
 p{
-  font-family: 'Baloo Da 2', cursive;
+  font-family: 'Poppins';
 }
 .center {
   display: block;
@@ -672,6 +672,24 @@ p{
 
 }
 
+.quote {
+  margin: 0;
+}
+
+.quote-text {
+  font-family: "Lora";
+  font-style: italic;
+  letter-spacing: 2px;
+}
+
+.quote-author {
+  font-weight: bold;
+}
+
+.quote-notation {
+  font-size: 1.3em;
+}
+
 @media (max-width:570px){
   #bottom{
     padding-top: 2rem;
@@ -687,4 +705,23 @@ p{
   .footer-p{
     margin-bottom: 0.5rem;
   }
+}
+
+.quote {
+  margin: 0;
+}
+
+.quote-text {
+  font-family: 'Lora';font-size: 28px;
+  letter-spacing: 2px;
+  
+}
+
+.quote-author {
+  font-weight: bold;
+  font-size:20px;
+}
+
+.quote-notation {
+  font-size: 1.3em;
 }
