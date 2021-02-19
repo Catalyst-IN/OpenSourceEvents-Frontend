@@ -251,7 +251,16 @@
                       The Only requirement being an enthusiastic heart to learn.
                     </div>
                   </div>
-                  
+
+                  <div onmouseenter='enter(this)' onmouseleave='exit(this)' class="myDIV">
+                    <p class="description">
+                      <a href="https://crosswoc.ieeedtu.in/">6. CrossWoC</a>
+                    </p>
+                    <div class="hide">CrossWoC is a six-week long opensource event organised by IEEE DTU & IEEE DTU CS, 
+                      which gives programmers and innovators an opportunity to bring out their nascent talent and find intriguing 
+                      solutions to real-world problems. It provides a platform for developers to dig deeper into their gray matter 
+                      and bring out their latent creativity through open source.</div>
+                  </div>
 
                   <div class="time time-1">
                     <h5>January</h5>
@@ -719,10 +728,18 @@
               </div>
               <div class="timeline-container right">
                 <div class="timeline-content">
+
                   <div  onmouseenter='enter(this)' onmouseleave='exit(this)' class="myDIV">
                     <p class="description">
+                      <a href="https://devscript.tech/woc/">1. DevScript Winter of Code</a>
+                    </p>
+                    <div class="hide">DevScript Winter of Code is a 3-month long open-source program envisioned by DevScript
+                       that helps understand the paradigm of Open Source contribution. It aims to bring students into the world
+                        of open source development and see the power of unified problem-solving in real time.</div>
+                  </div>
 
-
+                  <div  onmouseenter='enter(this)' onmouseleave='exit(this)' class="myDIV">
+                    <p class="description">
                       <a href="https://www.ecell.in/esummit/ihack/">2. I_Hack(IIT B)</a>
                     </p>
                     <div class="hide">At I_Hack, we bring together India’s best coders, developers, designers, innovators,
@@ -742,7 +759,16 @@
                       shape the future of community development.</div>
                   </div>
                  
-
+                  <div  onmouseenter='enter(this)' onmouseleave='exit(this)' class="myDIV">
+                    <p class="description">
+                      <a href="https://swoc.tech/">4. Script Winter of Code</a>
+                    </p>
+                    <div class="hide">Script Winter of Code is an 3-month long open-source program envisioned by the Script 
+                      Foundation. It aims to bring students into the world of open source development and see the power of 
+                      unified problem-solving in real time. The students will be guided by experienced mentors throughout their 
+                      journey. They will learn the skills essential in the world of programming, all the while developing a deep 
+                      appreciation for the world of open-source.</div>
+                  </div>
 
                   <div class="time time-2">
                     <h5>November</h5>
@@ -815,10 +841,9 @@
 
   </div>
 
-  <div class="quote">
-    <h3 class="quote-text">“Your time is limited, so don't waste it by living someone else's life.”</h3>
-    <h3 class="quote-author">Steve Jobs</h3>
-  </div>
+ <!--Quotes-->
+  <p id="spam"></p>
+
 
   <!-- footer  -->
 
@@ -927,7 +952,18 @@
   </script>
 
 
+<script>
+  function randomtext() {
+    var randomtxt = [
+    ` <div class="quote;"><h3 class="quote-text"><span class="quote-notation"> </span>"Your time is limited, so don't waste it by living someone else's life."<span class="quote-notation"></span></h3><h3 class="quote-author">-Steve Jobs</h3></div>`,
+      `<div class="quote;"><h3 class="quote-text"><span class="quote-notation"> </span>"The people who are crazy enough to think they can change the world are the ones who do."<span class="quote-notation"></span></h3><h3 class="quote-author">-Steve Jobs</h3></div>`,
+        `<div class="quote;"><h3 class="quote-text"><span class="quote-notation"> </span>"Sometimes life is going to hit you in the head with a brick. Don’t lose faith."<span class="quote-notation"></span></h3><h3 class="quote-author">-Steve Jobs</h3></div>`,
+        `<div class="quote;"><h3 class="quote-text"><span class="quote-notation"> </span>"Have the courage to follow your heart and intuition. They somehow know what you truly want to become."<span class="quote-notation"></span></h3><h3 class="quote-author">-Steve Jobs</h3></div>`];
+    return randomtxt[Math.floor((Math.random() *3.99))];
+}
 
+document.getElementById("spam").innerHTML = randomtext();
+</script>
 
   <script src="scroll.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
