@@ -834,8 +834,8 @@
   </div>
 
   </div>
-
-  <br><br><br><br><br><br><br><br><br>
+ <!--Quotes-->
+  <p id="spam"></p>
 
   <!-- footer  -->
 
@@ -944,7 +944,18 @@
   </script>
 
 
+<script>
+  function randomtext() {
+    var randomtxt = [
+    ` <div class="quote;"><h3 class="quote-text"><span class="quote-notation"> </span>"Your time is limited, so don't waste it by living someone else's life."<span class="quote-notation"></span></h3><h3 class="quote-author">-Steve Jobs</h3></div>`,
+      `<div class="quote;"><h3 class="quote-text"><span class="quote-notation"> </span>"The people who are crazy enough to think they can change the world are the ones who do."<span class="quote-notation"></span></h3><h3 class="quote-author">-Steve Jobs</h3></div>`,
+        `<div class="quote;"><h3 class="quote-text"><span class="quote-notation"> </span>"Sometimes life is going to hit you in the head with a brick. Don’t lose faith."<span class="quote-notation"></span></h3><h3 class="quote-author">-Steve Jobs</h3></div>`,
+        `<div class="quote;"><h3 class="quote-text"><span class="quote-notation"> </span>"Have the courage to follow your heart and intuition. They somehow know what you truly want to become."<span class="quote-notation"></span></h3><h3 class="quote-author">-Steve Jobs</h3></div>`];
+    return randomtxt[Math.floor((Math.random() *3.99))];
+}
 
+document.getElementById("spam").innerHTML = randomtext();
+</script>
 
   <script src="scroll.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
