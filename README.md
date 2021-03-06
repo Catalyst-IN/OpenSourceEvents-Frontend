@@ -34,15 +34,15 @@ When a repository is cloned, it has a default remote called `origin` that points
    > upstream https://github.com/Catalyst-CSE/OpenSourceEvents-Frontend.git (fetch)<br />
    > upstream https://github.com/Catalyst-CSE/OpenSourceEvents-Frontend.git (push)<br />
 5. To update your local copy with remote changes, run the following:<br />
-   `git fetch upstream develop`<br />
-   `git rebase upstream/develop`<br />
+   `git fetch upstream master`<br />
+   `git rebase upstream/master`<br />
    This will give you an exact copy of the current remote, make sure you don't have any local changes.<br />
 6. Project set-up is complete.
 
 ## Contributing and developing a feature
 
-1. Make sure you are in the develop branch `git checkout develop`.<br />
-2. Sync your copy `git pull --rebase upstream develop`.<br />
+1. Make sure you are in the master branch `git checkout master`.<br />
+2. Sync your copy `git pull --rebase upstream master`.<br />
 3. Create a new branch with a meaningful name `git checkout -b branch_name`.<br />
 4. Develop your feature on Xcode IDE and run it using the simulator or connecting your own iphone.<br />
 5. Add the files you changed `git add file_name` (avoid using `git add .`).<br />
