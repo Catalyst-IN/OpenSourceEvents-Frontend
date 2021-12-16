@@ -32,6 +32,7 @@ body {
   width: 100%;
   margin: 0 auto;
   position: relative;
+  background-color: #f96;
 }
 
 #contact input[type="text"],
@@ -57,6 +58,7 @@ body {
 }
 
 #contact h4 {
+  text-align: center;
   margin: 5px 0 15px;
   display: block;
   font-size: 13px;
@@ -97,6 +99,11 @@ fieldset {
   height: 100px;
   max-width: 100%;
   resize: none;
+  border-radius: .3em;
+}
+
+#contact textarea::placeholder {
+  font-size: 14px;
 }
 
 #contact button[type="submit"] {
@@ -108,6 +115,7 @@ fieldset {
   margin: 0 0 5px;
   padding: 10px;
   font-size: 15px;
+  border-radius: .5em;
 }
 
 #contact button[type="submit"]:hover {
