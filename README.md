@@ -84,5 +84,10 @@ When a repository is cloned, it has a default remote called `origin` that points
 
 You can reach the maintainers and our community on [Catalyst-discord](https://discord.gg/dHtDhHa). If you are interested in contributing to the OpenSourceEvents-Frontend, we have a dedicated stream for this project [#OpenSourceEvents-Frontend](https://discord.gg/9wmvkGW), where you can ask questions and interact with the community, join with us!
 
-💜 **Thanks**
-Thanks to our many contributors.
+
+
+## Thanks to all contributors ❤
+
+ <a href = "https://github.com/Catalyst-IN/OpenSourceEvents-Frontend/graphs/contributors">
+   <img src = "https://contrib.rocks/image?repo=Catalyst-IN/OpenSourceEvents-Frontend"/>
+ </a>
